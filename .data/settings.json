@@ -60,7 +60,7 @@
   "placeholderModel": "",
   "agentCorePromptVersion": 4,
   "autoPullOnOpen": true,
-  "markDescModel": "note-gen-chat",
+  "markDescModel": "note-gen-free-chat",
   "enableOutline": false,
   "giteaAutoSync": "disabled",
   "primaryModel": "note-gen-chat",
@@ -89,7 +89,7 @@
       "title": "写作助手"
     }
   ],
-  "currentTagId": 2,
+  "currentTagId": 1,
   "rerankingModel": "",
   "gitlabAutoSync": "disabled",
   "canvasMinimapVisible": true,
@@ -365,7 +365,7 @@
   "recordFilters": {
     "search": "",
     "selectedTypes": [],
-    "tagId": 2,
+    "tagId": "all",
     "tagRules": {
       "exclude": [],
       "include": [],
