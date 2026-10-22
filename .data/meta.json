@@ -1,0 +1,40 @@
+{
+  "schemaVersion": 3,
+  "updatedAt": "2026-10-22T20:58:56.299Z",
+  "updatedAtMs": 1792702736299,
+  "deviceId": "device_1792702736316_bt9kmw1yd",
+  "provider": "github",
+  "domains": [
+    "records",
+    "settings",
+    "conversations"
+  ],
+  "lastUploadedDomains": [
+    "conversations"
+  ],
+  "domainStates": {
+    "conversations": {
+      "updatedAt": "2026-10-22T20:58:56.299Z",
+      "updatedAtMs": 1792702736299,
+      "deviceId": "device_1792702736316_bt9kmw1yd"
+    }
+  },
+  "files": {
+    "records": [
+      ".data/tags.json",
+      ".data/marks.json",
+      ".data/canvases/index.json",
+      ".data/canvases/items"
+    ],
+    "settings": [
+      ".data/settings.json",
+      ".data/memories.json"
+    ],
+    "conversations": [
+      ".data/conversations/index.json",
+      ".data/conversations"
+    ],
+    "meta": ".data/meta.json"
+  },
+  "appVersion": "0.38.3"
+}
