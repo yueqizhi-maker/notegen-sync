@@ -1,8 +1,8 @@
 {
   "schemaVersion": 3,
-  "updatedAt": "2026-10-22T22:00:11.803Z",
-  "updatedAtMs": 1792706411803,
-  "deviceId": "device_1792703008191_y3s219unt",
+  "updatedAt": "2026-10-22T22:02:31.947Z",
+  "updatedAtMs": 1792706551947,
+  "deviceId": "device_1792702736316_bt9kmw1yd",
   "provider": "github",
   "domains": [
     "records",
@@ -14,9 +14,9 @@
   ],
   "domainStates": {
     "records": {
-      "updatedAt": "2026-10-22T22:00:11.803Z",
-      "updatedAtMs": 1792706411803,
-      "deviceId": "device_1792703008191_y3s219unt"
+      "updatedAt": "2026-10-22T22:02:31.947Z",
+      "updatedAtMs": 1792706551947,
+      "deviceId": "device_1792702736316_bt9kmw1yd"
     },
     "settings": {
       "updatedAtMs": 1792706284871,
