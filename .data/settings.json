@@ -1,55 +1,25 @@
 {
-  "canvasWheelBehavior": "pan",
-  "canvasGridStyle": "lines",
-  "enableOutline": false,
-  "embeddingModel": "note-gen-embedding",
-  "showSourceLineNumbers": true,
-  "canvasManagerViewMode": "grid",
-  "recordTextSize": "sm",
-  "version": "0.38.3",
-  "currentPromptId": "0",
-  "recordCompletionBehavior": "highlight",
-  "giteaCustomUrl": "",
-  "templateList": [
-    {
-      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
-      "id": "0",
-      "range": "all",
-      "status": true,
-      "title": "笔记"
+  "githubCustomImageRepo": "",
+  "gitlabInstanceType": "gitlab.com",
+  "audioModel": "",
+  "noteGenModelPolicyCache": {
+    "content": {
+      "free": {
+        "displayName": "Qwen3-8B",
+        "model": "Qwen/Qwen3-8B"
+      },
+      "limited": {
+        "dailyRequestLimit": 200,
+        "displayName": "GPT6 Luna",
+        "model": "gpt-6-luna"
+      },
+      "schemaVersion": 1,
+      "title": "NoteGen"
     },
-    {
-      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
-      "id": "1",
-      "range": "week",
-      "status": true,
-      "title": "周报"
-    }
-  ],
-  "shortcuts": [
-    {
-      "key": "openWindow",
-      "value": "CommandOrControl+Shift+W"
-    },
-    {
-      "key": "screenshotRecord",
-      "value": "Control+Z+Alt"
-    },
-    {
-      "key": "quickRecordText",
-      "value": "Shift+Control+Z"
-    }
-  ],
-  "previewTheme": "github",
-  "githubUsername": "yueqizhi-maker",
+    "versionCode": 101
+  },
+  "editorSourceWrap": true,
   "completionModel": "note-gen-chat",
-  "language": "简体中文",
-  "imageMethodModel": "",
-  "fileManagerTextSize": "sm",
-  "autoPullOnOpen": true,
-  "canvasMinimapVisible": true,
-  "showMobileEditorToolbar": true,
-  "showEditorStats": true,
   "recordToolbarConfig": [
     {
       "enabled": true,
@@ -87,98 +57,30 @@
       "order": 6
     }
   ],
-  "editorContentWidth": "full",
-  "primaryModel": "note-gen-chat",
-  "canvasGridVisible": true,
-  "currentTagId": 2,
-  "autoSync": "5",
-  "giteaAutoSync": "disabled",
   "placeholderModel": "",
-  "gitlabInstanceType": "gitlab.com",
-  "editorModel": "",
-  "outlinePosition": "right",
-  "customThemeColors": {
-    "dark": {
-      "accent": null,
-      "accentForeground": null,
-      "background": null,
-      "border": null,
-      "card": null,
-      "cardForeground": null,
-      "foreground": null,
-      "muted": null,
-      "mutedForeground": null,
-      "primary": null,
-      "primaryForeground": null,
-      "secondary": null,
-      "secondaryForeground": null,
-      "shadow": null,
-      "third": null,
-      "thirdForeground": null
-    },
-    "light": {
-      "accent": null,
-      "accentForeground": null,
-      "background": null,
-      "border": null,
-      "card": null,
-      "cardForeground": null,
-      "foreground": null,
-      "muted": null,
-      "mutedForeground": null,
-      "primary": null,
-      "primaryForeground": null,
-      "secondary": null,
-      "secondaryForeground": null,
-      "shadow": null,
-      "third": null,
-      "thirdForeground": null
-    }
-  },
-  "showEditorUndoRedo": true,
-  "editorWorkspaceLayout:main": {
-    "activeGroupId": "editor-group-8ce00775-d484-4852-b65c-d5b22d6c7f68",
-    "groups": {
-      "editor-group-8ce00775-d484-4852-b65c-d5b22d6c7f68": {
-        "activeTabId": "blank-9f1f5f0a-ec53-46ed-937d-b420b2a6dd5c",
-        "id": "editor-group-8ce00775-d484-4852-b65c-d5b22d6c7f68",
-        "tabIds": [
-          "blank-9f1f5f0a-ec53-46ed-937d-b420b2a6dd5c"
-        ]
-      }
-    },
-    "navigationHistory": [],
-    "navigationIndex": -1,
-    "root": {
-      "groupId": "editor-group-8ce00775-d484-4852-b65c-d5b22d6c7f68",
-      "id": "editor-node-0769109d-60fc-45e9-814c-479164acdaf1",
-      "type": "group"
-    },
-    "version": 1,
-    "workspaceKey": "__default__"
-  },
-  "gitlabCustomUrl": "",
-  "rerankingModel": "",
-  "canvasInsertBehavior": "select",
-  "sttModel": "note-gen-free-note-gen-stt",
-  "commitModel": "note-gen-chat",
-  "recordFilters": {
-    "search": "",
-    "selectedTypes": [],
-    "tagId": 2,
-    "tagRules": {
-      "exclude": [],
-      "include": [],
-      "match": "all"
-    },
-    "timePreset": "all"
-  },
-  "jsdelivr": true,
-  "editorSourceWrap": true,
-  "audioModel": "",
+  "agentCorePromptVersion": 4,
+  "autoPullOnOpen": true,
+  "markDescModel": "note-gen-chat",
+  "enableOutline": false,
+  "giteaAutoSync": "disabled",
+  "primaryModel": "note-gen-chat",
+  "agentPermissionMode": "ask",
+  "speechToTextMode": "auto",
   "editorViewMode": "visual",
-  "recordViewMode": "list",
-  "canvasDefaultZoom": 1,
+  "shortcuts": [
+    {
+      "key": "openWindow",
+      "value": "CommandOrControl+Shift+W"
+    },
+    {
+      "key": "screenshotRecord",
+      "value": "Control+Z+Alt"
+    },
+    {
+      "key": "quickRecordText",
+      "value": "Shift+Control+Z"
+    }
+  ],
   "promptList": [
     {
       "content": "请你扮演一个笔记软件的智能助手，可以参考记录内容，使用 markdown 语法，回答用户的问题。",
@@ -187,15 +89,27 @@
       "title": "写作助手"
     }
   ],
-  "enableImageRecognition": true,
-  "fixedRecordTagId": null,
-  "recordSortMode": "type",
-  "speechToTextMode": "auto",
+  "currentTagId": 2,
+  "rerankingModel": "",
   "gitlabAutoSync": "disabled",
-  "currentAi": "",
-  "markDescModel": "note-gen-chat",
-  "recordSaveTargetMode": "current",
+  "canvasMinimapVisible": true,
+  "canvasManagerSortMode": "updated",
+  "giteeAutoSync": "disabled",
+  "currentPromptId": "0",
+  "canvasGridVisible": true,
+  "editorLineHeight": "comfortable",
+  "autoUpdate": true,
+  "showSourceLineNumbers": true,
+  "commitModel": "note-gen-chat",
+  "canvasDefaultZoom": 1,
+  "giteaUsername": "",
+  "fixedRecordTagId": null,
+  "giteaCustomUrl": "",
+  "canvasManagerViewMode": "grid",
+  "fileManagerTextSize": "sm",
+  "githubUsername": "yueqizhi-maker",
   "agentSystemPromptExtension": "",
+  "canvasGridGap": 20,
   "newTabSectionVisibility": {
     "order": [
       "onboarding",
@@ -210,33 +124,11 @@
       "onboarding": false
     }
   },
-  "githubCustomImageRepo": "",
-  "agentPermissionMode": "ask",
-  "canvasGridGap": 20,
-  "autoUpdate": true,
-  "darkMode": "system",
-  "noteGenModelPolicyCache": {
-    "content": {
-      "free": {
-        "displayName": "Qwen3-8B",
-        "model": "Qwen/Qwen3-8B"
-      },
-      "limited": {
-        "dailyRequestLimit": 200,
-        "displayName": "GPT6 Luna",
-        "model": "gpt-6-luna"
-      },
-      "schemaVersion": 1,
-      "title": "NoteGen"
-    },
-    "versionCode": 101
-  },
-  "agentCorePromptVersion": 4,
-  "codeTheme": "github",
-  "giteeAutoSync": "disabled",
+  "recordCompletionBehavior": "highlight",
+  "currentAi": "",
   "gitlabUsername": "",
-  "canvasSnapToGrid": false,
-  "canvasManagerSortMode": "updated",
+  "gitlabCustomUrl": "",
+  "editorContentWidth": "full",
   "editorShortcuts": [
     {
       "id": "undo",
@@ -435,10 +327,118 @@
       "value": "Mod+Alt+-"
     }
   ],
-  "editorLineHeight": "comfortable",
+  "imageMethodModel": "",
+  "embeddingModel": "note-gen-embedding",
+  "canvasInsertBehavior": "select",
+  "editorWorkspaceLayout:main": {
+    "activeGroupId": "editor-group-8ce00775-d484-4852-b65c-d5b22d6c7f68",
+    "groups": {
+      "editor-group-8ce00775-d484-4852-b65c-d5b22d6c7f68": {
+        "activeTabId": "blank-9f1f5f0a-ec53-46ed-937d-b420b2a6dd5c",
+        "id": "editor-group-8ce00775-d484-4852-b65c-d5b22d6c7f68",
+        "tabIds": [
+          "blank-9f1f5f0a-ec53-46ed-937d-b420b2a6dd5c"
+        ]
+      }
+    },
+    "navigationHistory": [],
+    "navigationIndex": -1,
+    "root": {
+      "groupId": "editor-group-8ce00775-d484-4852-b65c-d5b22d6c7f68",
+      "id": "editor-node-0769109d-60fc-45e9-814c-479164acdaf1",
+      "type": "group"
+    },
+    "version": 1,
+    "workspaceKey": "__default__"
+  },
+  "darkMode": "system",
+  "autoSync": "5",
+  "recordTextSize": "sm",
+  "recordSaveTargetMode": "current",
   "giteaInstanceType": "gitea.com",
+  "sttModel": "note-gen-free-note-gen-stt",
   "ragStructuredKnowledgeConsent": true,
-  "giteaUsername": "",
+  "canvasGridStyle": "lines",
+  "canvasWheelBehavior": "pan",
+  "leftSidebarTab": "notes",
+  "recordViewMode": "list",
+  "recordFilters": {
+    "search": "",
+    "selectedTypes": [],
+    "tagId": 2,
+    "tagRules": {
+      "exclude": [],
+      "include": [],
+      "match": "all"
+    },
+    "timePreset": "all"
+  },
+  "editorModel": "",
+  "previewTheme": "github",
+  "codeTheme": "github",
+  "version": "0.38.3",
+  "jsdelivr": true,
+  "enableImageRecognition": true,
+  "showEditorUndoRedo": true,
+  "templateList": [
+    {
+      "content": "整理成一篇详细完整的笔记。\n满足以下格式要求：\n- 如果是代码，必须完整保留，不要随意生成。\n- 文字复制的内容尽量不要修改，只处理格式化后的内容。",
+      "id": "0",
+      "range": "all",
+      "status": true,
+      "title": "笔记"
+    },
+    {
+      "content": "最近一周的记录整理成一篇周报，将每条记录形成一句总结，每条不超过50字。",
+      "id": "1",
+      "range": "week",
+      "status": true,
+      "title": "周报"
+    }
+  ],
+  "language": "简体中文",
+  "recordSortMode": "type",
+  "outlinePosition": "right",
+  "canvasSnapToGrid": false,
   "textToSpeechMode": "auto",
-  "leftSidebarTab": "notes"
+  "showMobileEditorToolbar": true,
+  "customThemeColors": {
+    "dark": {
+      "accent": null,
+      "accentForeground": null,
+      "background": null,
+      "border": null,
+      "card": null,
+      "cardForeground": null,
+      "foreground": null,
+      "muted": null,
+      "mutedForeground": null,
+      "primary": null,
+      "primaryForeground": null,
+      "secondary": null,
+      "secondaryForeground": null,
+      "shadow": null,
+      "third": null,
+      "thirdForeground": null
+    },
+    "light": {
+      "accent": null,
+      "accentForeground": null,
+      "background": null,
+      "border": null,
+      "card": null,
+      "cardForeground": null,
+      "foreground": null,
+      "muted": null,
+      "mutedForeground": null,
+      "primary": null,
+      "primaryForeground": null,
+      "secondary": null,
+      "secondaryForeground": null,
+      "shadow": null,
+      "third": null,
+      "thirdForeground": null
+    }
+  },
+  "showEditorStats": true
 }
